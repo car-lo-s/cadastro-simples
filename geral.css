@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+hr{
+    width: 90%;
+    margin: auto;
+    border: 1px solid lightseagreen;
+}
+.topo{
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    align-items: flex-end;
+}
+.btn a{
+    margin: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+.btn a:hover{
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid white;
+}
